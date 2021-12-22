@@ -7,9 +7,9 @@ from pyrogram.types import *
 
 Bot = Client(
     "Image-Search-Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = os.environ["5062361592:AAEzdnIMT-XY6N-hTY0UurOxvhd23OPUBi4"],
+    api_id = int(os.environ["14460556"]),
+    api_hash = os.environ["4397b2defe1f3023e5a89e058543d4a9"]
 )
 
 API = "https://apibu.herokuapp.com/api/y-images?query="
